@@ -1,0 +1,285 @@
+body{
+	margin: 0;/*quita el margen por defecto de la página*/
+	overflow: hidden;/*quita la barra de desplazamiento*/
+}
+ul li{
+	position: relative; /* otorga una posición*/
+	left: 2px;/*desplaza hacia la derecha*/
+	bottom: 82px;/*desplaza hacia arriva*/
+	width: 75%;/*ancho de la imagen*/
+	height: 40px;/*alto de la imagen*/
+	background-image: url('imagenes/Cap1.png'); /*imagen de fondo*/
+	background-size: 100% 100%; /*tamaño container*/
+	opacity: 0;/*quita la opacidad*/
+}
+ul:hover li{
+	text-align: center; /*alinea el texto al centro*/
+	color: orange;/*Da color*/
+	font-size: 30px;/*tamaño letra*/
+	position: relative;
+	bottom: 82px;/*desplaza hacia arriva*/
+	width: 75%;
+	height: 40px;
+	background-image: url('imagenes/Cap1.png');
+	background-size: 100% 100%; /*tamaño container*/
+	opacity: 0.8;
+	transition: 1s;/*otorga una transición*/
+}
+ol li{
+	top:50px;/*desplaza hacia abajo*/
+	position: relative;
+	text-align: center;
+	align-items:center;/*alinea lo que pertenece*/
+	color: orange;
+	width: 400px;
+	height: 400px;
+	background-image: url('imagenes/Cap1.png');
+	background-size: 100% 100%; /*tamaño container*/
+	right:276px;/*desplaza a la izquierda*/
+	font-size: 35px;
+}
+ol:hover iframe{
+	z-index: 20;/*desplaza la capa para que sea visible*/
+	color: orange;
+	position: relative;
+	width: 300px;
+	height: 300px;
+	opacity: 1;
+}
+a:link {
+	color: orange;
+    background-color: transparent; /*otorga un color al fondo*/
+    text-decoration: none;/*quita decoración al link*/
+}
+
+a:visited {
+	color: orange;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+	color: yellow;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active {
+	color: orange;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.list{
+	margin: 0px;
+	padding: 0px;
+}
+.list2{
+	margin: 0px;
+	padding: 0px;
+}
+
+.parr1{
+	transition: 1.5s;
+	opacity: 0;
+	position: absolute;
+	top: 8%;
+	left: 46%;
+	width: 0px;
+	height: 0px;
+	font-size: 0px;
+	text-align: center;
+}
+
+.im1{
+	width:100%;
+	height: 100%;
+}
+.im2{
+	width: 100%;
+	height: 100%;
+}
+.im3{
+	position: absolute;
+	top: 50%;
+	left: 18%;
+	width: 10%;
+	height: 32%;
+}
+.im4{
+	position: absolute;
+	top: 60%;
+	left: 31%;
+	width: 16%;
+	height: 16%;
+}
+.im5{
+	transition: 1.5s;
+	opacity: 0;
+	position: absolute;
+	top: 8%;
+	left: 46%;
+	width: 0px;
+	height: 0px;
+}
+.im6{
+	transition: 2s;
+	position: absolute;
+	top: 13%;
+	left: 25%;
+	width: 45%;
+	height: 32%;
+}
+.im4:hover ~ .im5{
+	transition: 2s;
+	opacity: 1;
+	top: 8%;
+	left: 46%;
+	width: 42%;
+	height: 84%;
+}
+.im4:hover ~ .parr1{
+	color: purple;
+	transition: 2s;
+	opacity: 1;
+	position: absolute;
+	top: 16%;
+	left: 46%;
+	width: 42%;
+	height: 84%;
+	font-size: 32px;
+	text-align: center;
+}
+.im4:hover ~ .im6{
+	transition: 2s;
+	top: 13%;
+	left: 15%;
+	width: 30%;
+	height: 30%;
+}
+
+.link1{
+	display:block;
+	width: 100%;
+	height: 100%;
+}
+.link2{
+	display:block;
+	width: 100%;
+	height: 100%;
+}
+.link3{
+	display:block;
+	width: 100%;
+	height: 100%;
+}
+.link4{
+	display:block;
+	width: 100%;
+	height: 100%;
+}
+
+.containers{
+	display: flex;
+}
+.containers2{
+	display: flex;
+}
+
+.container1:hover{
+	background-image: url('imagenes/Not2.png');
+}
+.container2:hover{
+	background-image: url('imagenes/For2.png');
+}
+.container3:hover{
+	background-image: url('imagenes/Cap2.png');
+}
+.container4:hover{
+	background-image: url('imagenes/Tie2.png');
+}
+.container5:hover{
+	background-image: url('imagenes/Sop2.png');
+}
+.container6:hover{
+	background-image: url('imagenes/iniciar.png');
+}
+.container8:hover{
+	background-image: url('imagenes/Cont2.png');
+}
+.container9:hover{
+	background-image: url('imagenes/Priv2.png');
+}
+.container10:hover{
+	background-image: url('imagenes/Cono2.png');
+}
+
+.container1{
+	background-image: url('imagenes/Not1.png');
+	background-repeat: no-repeat;/*hace que el fondo no se repita*/
+	width: 22%; /*ancho de la imagen*/
+	height: 50px; /*alto de la imagen*/
+	background-size: 100% 100%; /*tamaño container*/
+}
+.container2{
+	background-image: url('imagenes/For.png');
+	background-repeat: no-repeat;
+	width: 21%; /*ancho de la imagen*/
+	height: 50px; /*alto de la imagen*/
+	background-size: 100% 100%; /*tamaño container*/
+}
+.container3{
+	width: 8%; /*ancho de la imagen*/
+	height: 50px; /*alto de la imagen*/
+	background-size: 100%; /*tamaño container*/
+}
+.container4{
+	background-image: url('imagenes/Tie.png');
+	background-repeat: no-repeat;
+	width: 22%; /*ancho de la imagen*/
+	height: 50px; /*alto de la imagen*/
+	background-size: 100% 100%; /*tamaño container*/
+}
+.container5{
+	background-image: url('imagenes/Sop.png');
+	background-repeat: no-repeat;
+	width: 22%; /*ancho de la imagen*/
+	height: 50px; /*alto de la imagen*/
+	background-size: 100% 100%; /*tamaño container*/
+}
+.container6{
+	background-image: url('imagenes/iniciar.png');
+	background-repeat: no-repeat;
+	width: 5%; /*ancho de la imagen*/
+	height: 50px; /*alto de la imagen*/
+	background-size: 100% 100%; /*tamaño container*/
+}
+.container7{
+	position: relative;
+	background-image: url('imagenes/Con borde.png');
+	background-repeat: no-repeat;
+	width: 100%; /*ancho de la imagen*/
+	height: 605px; /*alto de la imagen*/
+	background-size:100% 100%;
+}
+.container8{
+	background-image: url('imagenes/Cont.png');
+	background-repeat: no-repeat;
+	width: 30%; /*ancho de la imagen*/
+	height: 80px; /*alto de la imagen*/
+	background-size: 100% 100%; /*tamaño container*/
+}
+.container9{
+	background-image: url('imagenes/Priv.png');
+	background-repeat: no-repeat;
+	width: 40%; /*ancho de la imagen*/
+	height: 80px; /*alto de la imagen*/
+	background-size: 100% 100%; /*tamaño container*/
+}
+.container10{
+	background-image: url('imagenes/Cono.png');
+	background-repeat: no-repeat;
+	width: 30%; /*ancho de la imagen*/
+	height: 80px; /*alto de la imagen*/
+	background-size: 100% 100%; /*tamaño container*/
+}
