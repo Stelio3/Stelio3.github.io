@@ -1,0 +1,173 @@
+body{/*como el iframe del mapa tarda un poco en aparecer decidí meter una foto
+	de nuestro personaje en el body, es decir, debajo del iframe,
+  preguntandose donde esta*/
+	margin: 0;
+	background-image: url('imagenes/equi.png');
+	background-position:left bottom;
+	background-repeat: no-repeat;
+	background-size:30% 60%;
+}
+iframe{
+	margin-top:200px;
+	width: 40%; /*ancho de la imagen*/
+	height:480px; /*alto de la imagen*/
+	border: solid 5px red; /*Añade borde*/
+	border:0;
+}
+h1{
+	text-align: center;
+	color: Grey;
+}
+.parr1{
+	position: relative;
+	font-size: 21px;
+	color: Grey;
+	bottom:10px;
+	left:35px;
+}
+
+.minicontainers{
+	color: Gray;
+	position: absolute;
+  top: 15px;
+	left: 250px;
+	display: flex;
+	justify-content:space-around;
+	flex-direction: column;
+	font-size: 21px;
+}
+
+.im1{
+	width:100%;
+	height: 100%;
+}
+.im2{
+	width: 100%;
+	height: 100%;
+}
+.im3{
+	position: relative;
+	left: 100px;
+	width: 100px;
+	height: 100px;
+}
+.im4{
+	position: relative;
+	left: 100px;
+	width: 100px;
+	height: 100px;
+}
+.im5{
+	position: relative;
+	left: 100px;
+	width: 100px;
+	height: 100px;
+}
+.im6{
+	position: relative;
+	left: 100px;
+	width: 100px;
+	height: 100px;
+}
+
+.link1{
+	display:block;
+	width: 100%;
+	height: 100%;
+}
+.link2{
+	display:block;
+	width: 100%;
+	height: 100%;
+}
+.link3{
+	display:block;
+	width: 100%;
+	height: 100%;
+}
+
+.containers{
+	display: flex;
+	justify-content:center;
+}
+
+.container1:hover{
+	background-image: url('imagenes/Not2.png');
+}
+.container2:hover{
+	background-image: url('imagenes/For2.png');
+}
+.container3:hover{
+	background-image: url('imagenes/Cap2.png');
+}
+.container4:hover{
+	background-image: url('imagenes/Tie2.png');
+}
+.container5:hover{
+	background-image: url('imagenes/Sop2.png');
+}
+.container6:hover{
+	background-image: url('imagenes/Cap2.png');
+}
+
+.container1{
+	background-image: url('imagenes/Not1.png');
+	background-repeat: no-repeat;
+	width: 22%; /*ancho de la imagen*/
+	height: 50px; /*alto de la imagen*/
+	background-size: 100% 100%; /*tamaño container*/
+}
+.container2{
+	background-image: url('imagenes/For.png');
+	background-repeat: no-repeat;
+	width: 21%; /*ancho de la imagen*/
+	height: 50px; /*alto de la imagen*/
+	background-size: 100% 100%; /*tamaño container*/
+}
+.container3{
+	background-color: black;
+	width: 8%; /*ancho de la imagen*/
+	height: 50px; /*alto de la imagen*/
+	background-size: 100%; /*tamaño container*/
+}
+.container4{
+	background-image: url('imagenes/Tie.png');
+	background-repeat: no-repeat;
+	width: 22%; /*ancho de la imagen*/
+	height: 50px; /*alto de la imagen*/
+	background-size: 100% 100%; /*tamaño container*/
+}
+.container5{
+	background-image: url('imagenes/Sop.png');
+	background-repeat: no-repeat;
+	width: 22%; /*ancho de la imagen*/
+	height: 50px; /*alto de la imagen*/
+	background-size: 100% 100%; /*tamaño container*/
+}
+.container6{
+	background-image: url('imagenes/Cap1.png');
+	background-repeat: no-repeat;
+	width: 5%; /*ancho de la imagen*/
+	height: 50px; /*alto de la imagen*/
+	background-size: 100% 100%; /*tamaño container*/
+}
+.container7{
+	position: absolute;
+	background-image: url('imagenes/Fon.png');
+	background-repeat: no-repeat;
+	width: 40%; /*ancho de la imagen*/
+	height: 200px; /*alto de la imagen*/
+	background-size:100% 100%;
+}
+.container8{
+	display: flex;
+	justify-content:space-around;
+	flex-direction: column;
+	position: relative;
+	float: right;
+	background-image: url('imagenes/Fon2.png');
+	background-repeat: no-repeat;
+	width: 60%; /*ancho de la imagen*/
+	height: 683px; /*alto de la imagen*/
+	background-size:100% 100%;
+}

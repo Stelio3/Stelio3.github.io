@@ -1,0 +1,330 @@
+body{/*Para hacer la navegación por la página web más comoda he puesto una imagen
+	debajo del menú superior que se vea cuando bajes un poco en la página y muestre
+	donde te encuentras, en este caso en tienda*/
+	margin: 0;
+	background-image: url('imagenes/Tie.png');
+	background-attachment: fixed; /*Fija el fondo*/
+	background-repeat: no-repeat;
+	background-size:26% 7%;
+}
+h2{
+	color: blue;
+	font-size: 50px;
+}
+li{
+	font-size: 35px;
+}
+a:link {
+	color: purple;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+	color: purple;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+	color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active {
+	color: purple;
+    background-color: transparent;
+    text-decoration: none;
+}
+.minicontainers1{
+	position: relative;
+	color: Gray;
+	font-size: 32px;
+}
+.minicontainers2{
+	position: relative;
+	color: Gray;
+	font-size: 32px;
+}
+.minicontainers3{
+	position: relative;
+	color: Gray;
+	font-size: 32px;
+}
+.minicontainers4{
+	position: relative;
+	color: Gray;
+	font-size: 32px;
+}
+.minicontainers5{
+	position: relative;
+	color: Gray;
+	font-size: 32px;
+}
+.minicontainers6{
+	position: relative;
+	color: Gray;
+	font-size: 32px;
+}
+.minicontainers7{
+	position: relative;
+	color: Gray;
+	font-size: 32px;
+}
+.minicontainers8{
+	position: relative;
+	color: Gray;
+	font-size: 32px;
+}
+.minicontainers9{
+	position: relative;
+	color: Gray;
+	font-size: 32px;
+}
+
+.im1{
+	width:100%;
+	height: 100%;
+}
+.im2{
+	width: 100%;
+	height: 100%;
+}
+.im3{
+	position: relative;
+	top: 10px;
+	width: 225px;
+	height: 240px;
+}
+.im4{
+	position: relative;
+	top:7px;
+	width: 280px;
+	height: 237px;
+}
+.im5{
+	position: relative;
+	top:10px;
+	width: 350px;
+	height: 355px;
+}
+.im6{
+	position: relative;
+	top:10px;
+	width: 280px;
+	height: 350px;
+}
+.im7{
+	position: relative;
+	top:7px;
+	width: 280px;
+	height: 237px;
+}
+.im8{
+	position: relative;
+	top:7px;
+	width: 280px;
+	height: 237px;
+}
+.im9{
+	position: relative;
+	width: 350px;
+	height: 320px;
+	bottom: 40px;
+}
+.im10{
+	position: relative;
+	top:20px;
+	width: 200px;
+	height: 200px;
+}
+.list{
+	width:275px;
+	font-size: 25px; /*tamaño letra*/
+	color: purple;
+	text-decoration: none;
+}
+
+.link1{
+	display:block;
+	width: 100%;
+	height: 100%;
+}
+.link2{
+	display:block;
+	width: 100%;
+	height: 100%;
+}
+.link3{
+	display:block;
+	width: 100%;
+	height: 100%;
+}
+
+.containers{
+	display: flex;
+	align-items:flex-end;
+}
+.containers2{
+	position: relative;
+	display: flex;
+	flex-direction:column;
+	align-items:flex-end;
+}
+
+.container1:hover{
+	background-image: url('imagenes/Not2.png');
+}
+.container2:hover{
+	background-image: url('imagenes/For2.png');
+}
+.container3:hover{
+	background-image: url('imagenes/Cap2.png');
+}
+.container4:hover{
+	background-image: url('imagenes/Tie2.png');
+}
+.container5:hover{
+	background-image: url('imagenes/Sop2.png');
+}
+.container6:hover{
+	background-image: url('imagenes/Cap2.png');
+}
+
+.container1{
+	background-image: url('imagenes/Not1.png');
+	background-repeat: no-repeat;
+	width: 22%; /*ancho de la imagen*/
+	height: 50px; /*alto de la imagen*/
+	background-size: 100% 100%; /*tamaño container*/
+}
+.container2{
+	background-image: url('imagenes/For.png');
+	background-repeat: no-repeat;
+	width: 21%; /*ancho de la imagen*/
+	height: 50px; /*alto de la imagen*/
+	background-size: 100% 100%; /*tamaño container*/
+}
+.container3{
+	width: 8%; /*ancho de la imagen*/
+	height: 50px; /*alto de la imagen*/
+	border: solid 0px #999; /*Añade borde*/
+	background-size: 100%; /*tamaño container*/
+}
+.container4{
+	background-image: url('imagenes/Tie.png');
+	background-repeat: no-repeat;
+	width: 22%; /*ancho de la imagen*/
+	height: 50px; /*alto de la imagen*/
+	background-size: 100% 100%; /*tamaño container*/
+}
+.container5{
+	background-image: url('imagenes/Sop.png');
+	background-repeat: no-repeat;
+	width: 22%; /*ancho de la imagen*/
+	height: 50px; /*alto de la imagen*/
+	background-size: 100% 100%; /*tamaño container*/
+}
+.container6{
+	background-image: url('imagenes/Cap1.png');
+	background-repeat: no-repeat;
+	width: 5%; /*ancho de la imagen*/
+	height: 50px; /*alto de la imagen*/
+	background-size: 100% 100%; /*tamaño container*/
+}
+.container7{
+	justify-content:space-around;
+	z-index: 10;
+	position: fixed;
+	flex-direction:column;
+	display: flex;
+	align-items:center;
+	float: left;
+	background-image: url('imagenes/Fon2.png');
+	background-repeat: no-repeat;
+	width: 25%; /*ancho de la imagen*/
+	height: 684px; /*alto de la imagen*/
+	background-size:100% 100%;
+}
+.container8{
+	justify-content:space-around;
+	display: flex;
+	background-image: url('imagenes/Fon.png');
+	background-repeat: no-repeat;
+	width: 75%; /*ancho de la imagen*/
+	height: 250px; /*alto de la imagen*/
+	background-size:100% 100%;
+}
+.container9{
+	justify-content:space-around;
+	display: flex;
+	background-image: url('imagenes/Fon.png');
+	background-repeat: no-repeat;
+	width: 75%; /*ancho de la imagen*/
+	height: 250px; /*alto de la imagen*/
+	background-size:100% 100%;
+}
+.container10{
+	justify-content:space-around;
+	display: flex;
+	background-image: url('imagenes/Fon.png');
+	background-repeat: no-repeat;
+	width: 75%; /*ancho de la imagen*/
+	height: 250px; /*alto de la imagen*/
+	background-size:100% 100%;
+}
+.container11{
+	justify-content:space-around;
+	display: flex;
+	background-image: url('imagenes/Fon.png');
+	background-repeat: no-repeat;
+	width: 75%; /*ancho de la imagen*/
+	height: 375px; /*alto de la imagen*/
+	background-size:100% 100%;
+}
+.container12{
+	justify-content:space-around;
+	display: flex;
+	background-image: url('imagenes/Fon.png');
+	background-repeat: no-repeat;
+	width: 75%; /*ancho de la imagen*/
+	height: 375px; /*alto de la imagen*/
+	background-size:100% 100%;
+}
+.container13{
+	justify-content:space-around;
+	display: flex;
+	background-image: url('imagenes/Fon.png');
+	background-repeat: no-repeat;
+	width: 75%; /*ancho de la imagen*/
+	height: 375px; /*alto de la imagen*/
+	background-size:100% 100%;
+}
+.container14{
+	justify-content:space-around;
+	display: flex;
+	background-image: url('imagenes/Fon.png');
+	background-repeat: no-repeat;
+	width: 75%; /*ancho de la imagen*/
+	height: 370px; /*alto de la imagen*/
+	background-size:100% 100%;
+}
+.container15{
+	justify-content:space-around;
+	display: flex;
+	background-image: url('imagenes/Fon.png');
+	background-repeat: no-repeat;
+	width: 75%; /*ancho de la imagen*/
+	height: 250px; /*alto de la imagen*/
+	background-size:100% 100%;
+}
+.container16{
+	justify-content:space-around;
+	display: flex;
+	background-image: url('imagenes/Fon.png');
+	background-repeat: no-repeat;
+	width: 75%; /*ancho de la imagen*/
+	height: 250px; /*alto de la imagen*/
+	background-size:100% 100%;
+}

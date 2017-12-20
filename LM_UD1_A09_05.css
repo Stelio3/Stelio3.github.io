@@ -1,0 +1,61 @@
+body{
+	margin: 0;
+}
+.container{
+  position: fixed;
+	display: flex;
+	flex-direction: column;/*distribuye elementos en posición vertical(uno debajo de otro)*/
+	align-items:center;/*alinea elementos al centro horizontal del container*/
+	float: left;
+	justify-content:center;
+	font-size: 26px;
+	color: grey;
+	width: 25%;
+	background-image: url('imagenes/Fon.png');
+	background-size: 100% 100%; /*tamaño container*/
+	height: 100%;
+}
+.container2{
+	float: right;
+	display: flex;
+	align-items: center;
+	font-size: 26px;
+	color: grey;
+	background-image: url('imagenes/Fon.png');
+	background-size: 100% 100%; /*tamaño container*/
+	height: 100%;
+	width: 75%;
+}
+h1{
+  margin: 100px;
+}
+p{
+  margin: 100px;
+}
+a:link {
+	color: grey;
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 50px;
+}
+
+a:visited {
+	color: grey;
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 50px;
+}
+
+a:hover {
+	color: purple;
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 50px;
+}
+
+a:active {
+	color: grey;
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 50px;
+}

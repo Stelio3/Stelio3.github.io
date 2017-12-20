@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+      <!--Link para vincular los estilos de css-->
+      <link rel="stylesheet" type="text/css" href="LM_UD1_A09_02.css"/>
+      <!--Título de la página-->
+    <title>Bugishop</title>
+  </head>
+  <body>
+    <!--creo un div que engloba a los 6 primeros, que son los del menu de arriba, para ajustarlos a la página-->
+    <div id="Ini" class="containers">
+      <!--Primer container donde esta el link a la página de noticias (que es la principal)-->
+    <div class="container1">
+      <a class="link1" target="black" href="LM_UD1_A09_01.html"> </a>
+    </div>
+      <!--Segundo container donde esta el link a la página del foro-->
+    <div class="container2">
+      <a class="link1" target="black" href="http://www.topforo.com/bugisos"> </a>
+    </div>
+    <!--tercer container al que pertenece el logotipo de la empresa-->
+    <div class="container3">
+        <img class="im1" src = "imagenes/Logo.png" alt="Logo">
+    </div>
+    <!--cuarto container donde esta el link a la página de la tienda-->
+    <div class="container4">
+      <a class="link2" target="black" href="LM_UD1_A09_02.html"></a>
+    </div>
+    <!--quinto container donde esta el link a la página del soporte-->
+    <div class="container5">
+      <a class="link3" target="black" href="LM_UD1_A09_03.html"> </a>
+    </div>
+    <!--sexto container donde hay un submenú con un gameplay del videojuego-->
+    <div class="container6">
+        <img class="im2" src = "imagenes/iniciar.png" alt="Cm">
+    </div>
+    </div>
+    <!--septimo container para hacer el índice fijo con uns lista de enlaces en su interior-->
+  <div class="container7">
+      <h2>Categorias</h2>
+    <ul class="list">
+    				<li><a href="#Camisas">Camisetas</a></li>
+    				<li><a href="#Pega">Pegatinas</a></li>
+    				<li><a href="#Art">Arte</a></li>
+    				<li><a href="#Fond">Fondos</a></li>
+            <li><a href="#Post">Posters</a></li>
+            <li><a href="#Pel">Peluches</a></li>
+            <li><a href="#Jue">Juegos</a></li>
+            <li><a href="#Taz">Tazas</a></li>
+            <li><a href="#Amb">Ambientador</a></li>
+    			</ul>
+          <h2><a href="#Ini">Inicio</a></h2>
+  </div>
+  <!--container donde creo la disposición de todos los productos de la tienda
+  (que son todos los próximos containers).Lo he realizado de tal forma que con
+  ir incluyendo productos solo tengo que copiar y pegar algún container ya hecho
+  y cambiarle el contenido-->
+    <div class="containers2">
+      <!--el primer container de cada tipo de producto lleva un id al que se irá al
+      hacer click en su producto del container 7.(estos container estarán a la
+       izquierda y derecha el uno del otro).-->
+  <div id="Camisas" class="container8">
+    <img class="im3" src = "imagenes/camisa_benri.png" alt="Cami">
+      <div class="minicontainers1">
+        <p><b>Camisetas</b><br/>
+   Precio: 19,99$<br/><br/>
+    Camiseta con nuestro protagonista Equinus!<br/>
+    Disponible en las tallas: S, L, XL, XXL
+  </p>
+</div>
+  </div>
+  <div class="container8">
+    <img class="im10" src = "imagenes/cami2.png" alt="Cami">
+      <div class="minicontainers1">
+        <p><b>Camisetas</b><br/>
+   Precio: 19,99$<br/><br/>
+    Camiseta de la mascota de nuestra empresa!<br/>
+    Disponible en las tallas: S, L, XL, XXL
+  </p>
+</div>
+  </div>
+  <div id="Pega" class="container9">
+    <img class="im4" src = "imagenes/peg1.jpg" alt="pega">
+    <div class="minicontainers2">
+      <p><b>Pack pegatinas1</b><br/>
+  Precio: 1,99$<br/><br/>
+  Pegatinas de algunos personajes secundarios!<br/>
+
+</p>
+</div>
+  </div>
+  <div class="container10">
+    <img class="im4" src = "imagenes/peg2.jpg" alt="pega">
+    <div class="minicontainers3">
+      <p><b>Pack pegatinas2</b><br/>
+  Precio: 1,99$<br/><br/>
+  Pegatinas de nuestro protagonista y un totem! <br/>
+
+</p>
+</div>
+  </div>
+  <div id="Art" class="container16">
+    <img class="im8" src = "imagenes/Ame.jpg" alt="arte">
+      <div class="minicontainers9">
+        <p><b>Arte</b><br/>
+    Precio: 99,99$<br/><br/>
+    Les presentamos el primer boceto de Equinus!<br/>
+    Digno de Art Attack.
+</div>
+</div>
+  <div id="Fond" class="container11">
+      <img class="im5" src = "imagenes/Wallp1.jpg" alt="wall1">
+    <div class="minicontainers4">
+      <p><b>Wallpaper</b><br/>
+  Precio: 0,05$<br/><br/>
+  Imágenes de fondos para poner en tu escritorio!<br/>
+
+</p>
+</div>
+  </div>
+  <div class="container12">
+      <img class="im5" src = "imagenes/Wallp2.jpg" alt="wall2">
+    <div class="minicontainers5">
+      <p><b>Wallpaper</b><br/>
+  Precio: 0,05$<br/><br/>
+  Imágenes de fondos para poner en tu escritorio!<br/>
+</p>
+</div>
+  </div>
+  <div class="container13">
+      <img class="im5" src = "imagenes/Wallp3.jpg" alt="wall3">
+    <div class="minicontainers6">
+      <p><b>Wallpaper</b><br/>
+  Precio: 0,05$<br/><br/>
+  Imágenes de fondos para poner en tu escritorio!<br/>
+</p>
+</div>
+  </div>
+  <div id="Post" class="container14">
+    <img class="im6" src = "imagenes/Postcaos.jpg" alt="pega">
+      <div class="minicontainers7">
+        <p><b>Poster</b><br/>
+    Precio: 9,99$<br/><br/>
+    Poster de uno de los villanos más mal rollistas <br/>
+    del videojuego.
+  </p>
+</div>
+  </div>
+<div id="Pel" class="container15">
+  <img class="im7" src = "imagenes/eqpe.jpg" alt="pega">
+    <div class="minicontainers8">
+      <p><b>Peluche</b><br/>
+  Precio: 39,99$<br/><br/>
+  Peluche del protagonista! <br/>
+  Quiere y abraza a Equinus disfrasado de osito.
+</div>
+  </div>
+<div id="Jue" class="container16">
+  <img class="im9" src = "imagenes/Monob.png" alt="juego">
+    <div class="minicontainers8">
+      <p><b>Monopoly Benri</b><br/>
+  Precio: 49,99$<br/><br/>
+  Juega a nuestro juego de mesa y conoce el mundo<br/>
+   que rodea a Equinus!<br/>
+</div>
+  </div>
+<div id="Taz" class="container16">
+  <img class="im7" src = "imagenes/taza1.png" alt="taza">
+    <div class="minicontainers8">
+      <p><b>Taza Logo</b><br/>
+  Precio: 9,99$<br/><br/>
+  Tazas con imagenes de productos de la empreza!<br/>
+</div>
+  </div>
+  <div class="container16">
+    <img class="im7" src = "imagenes/taza2.png" alt="taza">
+      <div class="minicontainers8">
+        <p><b>Taza boceto</b><br/>
+    Precio: 9,99$<br/><br/>
+  Tazas con imagenes de productos de la empreza!<br/>
+</div>
+  </div>
+  <div class="container16">
+    <img class="im7" src = "imagenes/taza3.png" alt="taza">
+      <div class="minicontainers8">
+        <p><b>Taza Equinus</b><br/>
+    Precio: 9,99$<br/><br/>
+    Tazas con imagenes de productos de la empreza! <br/>
+  </div>
+    </div>
+    <div id="Amb" class="container16">
+      <img class="im7" src = "imagenes/amb.png" alt="Ambientador">
+        <div class="minicontainers8">
+          <p><b>Ambientador</b><br/>
+      Precio: 14,99$<br/><br/>
+    Rocia tu casa con el nuevo ambientador Equinus! <br/>
+    </div>
+      </div>
+    </div>
+  </body>
+</html>

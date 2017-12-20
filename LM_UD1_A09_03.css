@@ -1,0 +1,182 @@
+body{/*Para hacer la navegación por la página web más comoda he puesto una imagen
+	debajo del menú superior que se vea cuando bajes un poco en la página y muestre
+	donde te encuentras, en este caso en soporte*/
+	margin: 0;
+	background-image: url('imagenes/Sop.png');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size:30.5% 7%;
+}
+
+h1{
+	color: grey;
+	text-align: center;
+}
+.a1{
+	color:grey;
+}
+a:link {
+	color: yellow;
+  background-color: transparent;
+  text-decoration: none;
+	font-size: 25px;
+}
+
+a:visited {
+	color: yellow;
+  background-color: transparent;
+  text-decoration: none;
+	font-size: 25px;
+}
+
+a:hover {
+	color: darkgoldenrod;
+  background-color: transparent;
+  text-decoration: none;
+	font-size: 25px;
+}
+
+a:active {
+	color: orange;
+  background-color: transparent;
+  text-decoration: none;
+	font-size: 25px;
+	}
+
+p{
+	display: flex;
+	position: relative;
+	color: grey;
+	font-size: 25px;
+	top:10px;
+	text-align: center;
+	justify-content:center;
+}
+
+.boton1{
+	background-image: url('imagenes/Cap1.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%; /*tamaño container*/
+	position: relative;
+	bottom: 20px;
+	height: 10%;
+	width: 67%;
+}
+.im1{
+	width:100%;
+	height: 100%;
+}
+.im2{
+	width: 100%;
+	height: 100%;
+}
+
+.link1{
+	display:block;
+	width: 100%;
+	height: 100%;
+}
+.link2{
+	display:block;
+	width: 100%;
+	height: 100%;
+}
+.link3{
+	display:block;
+	width: 100%;
+	height: 100%;
+}
+
+.containers{
+	display: flex;
+	justify-content:center;
+}
+
+.container1:hover{
+	background-image: url('imagenes/Not2.png');
+}
+.container2:hover{
+	background-image: url('imagenes/For2.png');
+}
+.container3:hover{
+	background-image: url('imagenes/Cap2.png');
+}
+.container4:hover{
+	background-image: url('imagenes/Tie2.png');
+}
+.container5:hover{
+	background-image: url('imagenes/Sop2.png');
+}
+.container6:hover{
+	background-image: url('imagenes/Cap2.png');
+}
+
+.container1{
+	background-image: url('imagenes/Not1.png');
+	background-repeat: no-repeat;
+	width: 22%; /*ancho de la imagen*/
+	height: 50px; /*alto de la imagen*/
+	background-size: 100% 100%; /*tamaño container*/
+}
+.container2{
+	background-image: url('imagenes/For.png');
+	background-repeat: no-repeat;
+	width: 21%; /*ancho de la imagen*/
+	height: 50px; /*alto de la imagen*/
+	background-size: 100% 100%; /*tamaño container*/
+}
+.container3{
+	width: 8%; /*ancho de la imagen*/
+	height: 50px; /*alto de la imagen*/
+	background-size: 100%; /*tamaño container*/
+}
+.container4{
+	background-image: url('imagenes/Tie.png');
+	background-repeat: no-repeat;
+	width: 22%; /*ancho de la imagen*/
+	height: 50px; /*alto de la imagen*/
+	background-size: 100% 100%; /*tamaño container*/
+}
+.container5{
+	background-image: url('imagenes/Sop.png');
+	background-repeat: no-repeat;
+	width: 22%; /*ancho de la imagen*/
+	height: 50px; /*alto de la imagen*/
+	background-size: 100% 100%; /*tamaño container*/
+}
+.container6{
+	background-image: url('imagenes/Cap1.png');
+	background-repeat: no-repeat;
+	width: 5%; /*ancho de la imagen*/
+	height: 50px; /*alto de la imagen*/
+	background-size: 100% 100%; /*tamaño container*/
+}
+.container7{
+	justify-content:space-around;/*separa los componentes*/
+	position: fixed;
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	align-items: center;
+	background-image: url('imagenes/Fon2.png');
+	background-repeat: no-repeat;
+	width: 30%; /*ancho de la imagen*/
+	height: 95%; /*alto de la imagen*/
+	background-size: 100% 100%; /*tamaño container*/
+}
+.container8{
+	background-image: url('imagenes/Fon2.png');
+	background-repeat: no-repeat;
+	float: right;/*coloca el container a la derecha para poder colocar otros a la izquierda*/
+	width: 70%; /*ancho de la imagen*/
+	height: 620px; /*alto de la imagen*/
+	background-size: 100% 100%; /*tamaño container*/
+}
+.container9{
+	background-image: url('imagenes/Fon2.png');
+	background-repeat: no-repeat;
+	float: right;
+	width: 70%; /*ancho de la imagen*/
+	height: 170px; /*alto de la imagen*/
+	background-size: 100% 100%; /*tamaño container*/
+}
